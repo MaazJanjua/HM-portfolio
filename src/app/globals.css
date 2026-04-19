@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0,1&display=swap");
+@import "tailwindcss";
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  background-color: #303234;
+  color: #f0f8ff;
+  font-family: "Instrument Serif", serif, 'Anzo1', 'Anzo2', 'MorgSemi', 'Mobile-Device1', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+
+  overflow-x: hidden;   /* allow vertical for Locomotive */
+  /* overflow-y: auto;   */
+  /* prevent double scroll */
+}
+
+/* Scroll container */
+/* [data-scroll-container] {
+  min-height: 100vh;
+} */
+
+[data-scroll-section] {
+  position: relative;
+}
+
+/* Font-face definitions */
+@font-face {
+  font-family: 'Anzo1';
+  src: url('/fonts/anzo.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Anzo2';
+  src: url('/fonts/anzo.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Anzo3';
+  src: url('/fonts/anzo1.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'MorgSemi';
+  src: url('/fonts/Morganite-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mobile-Device1';
+  src: url('/fonts/Frijole/Frijole-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mobile-Device2';
+  src: url('/fonts/Story_Script/StoryScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mobile-Device3';
+  src: url('/fonts/Creepstar-Regular.ttf') format('truetype');
+     /* src: url('fonts/Creepstar-Regular.ttf') format('truetype'); */
+}
+
+/* Example 3D / tilt styles */
+#page1-in {
+  position: relative;
+  perspective: 1000px;
+}
+
+#quoteSection {
+  position: relative;
+  perspective: 1800px;
+}
+
+.rotateText {
+  transform-origin: 100% 70%;
+}
+
+/* #tiltDiv {
+  width: fit-content;
+  transform: rotateY(10deg);
+  transition: transform 1s ease-in-out;
+} */
