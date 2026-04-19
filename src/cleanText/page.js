@@ -48,7 +48,7 @@ const Page2 = () => {
                 opacity: 0,
                 transformOrigin: "top center",
                 duration: 1.2,
-                stagger: 0.2,
+                stagger: 1,
                 ease: "power4.out",
                 scrollTrigger: {
                     trigger: ".rotateText",
