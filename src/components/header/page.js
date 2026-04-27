@@ -11,12 +11,12 @@ const Header = () => {
     const [showLogo, setShowLogo] = useState(true);
 
     useGSAP(() => {
-        gsap.from(".toplogodiv", {
-            opacity: 0,
-            x: -150,
-            duration: 2,
-            ease: "power4.out"
-        });
+        // gsap.from(".toplogodiv", {
+        //     opacity: 0,
+        //     x: -150,
+        //     duration: 2,
+        //     ease: "power4.out"
+        // });
 
         gsap.from(".secondmaindiv", {
             opacity: 0,
@@ -42,13 +42,15 @@ const Header = () => {
         <div className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4">
 
             {/* LOGO */}
-            <div className={`transition-all duration-500 ${showLogo ? "opacity-100" : "opacity-0 -translate-y-6"}`}>
+            <div className={` transition-all duration-500   ${showLogo ? "opacity-100" : "opacity-0 -translate-y-6"}`}>
                 <div className="relative w-16 h-16 sm:w-20 sm:h-20 lg:w-34 lg:h-34">
                     <Image
                         src="/image/headerLogo.png"
                         alt="logo"
-                        fill
+                        // fill
                         className="object-contain select-none"
+                        height={200}
+                        width={200}
                     />
                 </div>
             </div>

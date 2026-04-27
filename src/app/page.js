@@ -4,6 +4,7 @@ import { ReactLenis } from 'lenis/react'
 import ProjectCardPage from '@/app/projects/page.js'
 import React, { useEffect, useRef } from 'react';
 import Home from '@/homeMainPage/page.js'
+// import Intro from '@/app/intro/page.js'
 import Services from "@/app/services/page.js";
 import FlipText from '../../src/cleanText/page.js'
 // import textPage from '@/cleanText/page.js'
@@ -47,15 +48,16 @@ const Page = () => {
   return (
     <>
       <ReactLenis root />
+      {/* <Intro /> */}
       <main className='bg-gray-950'
       //  ref={scrollContainerRef}
       >
         <Home />
         {/* <PageClean /> */}
-        <FlipText/>
+        <FlipText />
         <div className='hidden sm:block '>
-        <ProjectCardPage />
-        </div> 
+          <ProjectCardPage />
+        </div>
         <Services />
       </main>
     </>

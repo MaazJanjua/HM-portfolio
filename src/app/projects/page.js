@@ -11,11 +11,11 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const page =  () => {
+const page = () => {
 
   const container = useRef(null);
   const cardRefs = useRef([]);
-
+ 
   useGSAP(
     () => {
       const cards = cardRefs.current;
@@ -23,7 +23,7 @@ const page =  () => {
       const position = [14, 38, 62, 86];
       const rotation = [-15, -7.5, 7.5, 15];
 
-      
+
       ScrollTrigger.create({
         trigger: container.current.querySelector(".cards"),
         start: "top top",
@@ -35,7 +35,7 @@ const page =  () => {
       const totalCards = cards.length;
 
       cards.forEach((card, index) => {
-        const spreadStart = 10; 
+        const spreadStart = 10;
         const spreadEnd = 90;
 
         const step = (spreadEnd - spreadStart) / (totalCards - 1);
@@ -95,30 +95,35 @@ const page =  () => {
     {
       id: 1,
       image: "/image/kanban.jpg",
-      heading: "HEADING-01",
+      heading: "Project-01",
 
       text: "A dynamic Kanban Todo application built using HTML, CSS, and JavaScript enabling users to manage tasks efficiently through an intuitive drag-and-drop interface. Supports task creation, deletion and real-time movement across different stages. Includes task counters for better tracking and productivity insights. Utilizes localStorage to persist data, ensuring tasks remain saved across sessions. Designed with confirmation prompts to enhance user control and prevent accidental deletions.",
+      liveLink: "https://kan-ban-todo.vercel.app/"
     },
     {
       id: 2,
       image: "/image/snake-game.jpg",
-      heading: "HEADING-02",
-
+      heading: "Project-02",
+      liveLink: 'http:',
       text: "An interactive Snake Game developed using HTML, CSS, JavaScript and Tailwind CSS featuring smooth gameplay and responsive design. Includes real-time score tracking, high score storage, and time-based gameplay mechanics. Implemented keyboard controls with planned mobile support for broader accessibility. Designed to adapt seamlessly across different screen sizes with dynamic resizing. This project highlights my skills in game logic, DOM manipulation, and user-focused design.",
+      liveLink: "https://snake-game1-smoky.vercel.app/"
+
     },
 
     {
       id: 3,
       image: "/image/password-manager.jpg",
-      heading: "HEADING-03",
+      heading: "Project-03",
 
       text: "A secure Password Manager application built with React.js, allowing users to store, edit and delete credentials efficiently. Implements masked password display for enhanced privacy, ensuring sensitive data remains protected. Includes confirmation prompts before deletion to prevent accidental data loss. Designed with a clean and intuitive user interface for smooth user experience. This project demonstrates my skills in state management, CRUD operations and building secure user-focused applications.",
+      liveLink:"https://lustrous-crumble-7be450.netlify.app/"
     },
     {
       id: 4,
       image: "/image/full-stack-project.jpg",
-      heading: "HEADING-04",
+      heading: "Project-04",
       text: "A complete full-stack web application built with modern technologies, covering frontend, backend and database integration. Designed with secure authentication and scalable architecture to handle real-world usage. Focused on performance clean UI/UX and efficient data handling. Implements best practices for maintainability and future growth. This project demonstrates my ability to deliver end-to-end production-ready web solutions.",
+      liveLink: "https://full-stack-app-pink-sigma.vercel.app/"
     },
   ];
   return (
@@ -132,8 +137,9 @@ const page =  () => {
               id={`card-${project.id}`}
               frontSrc={project.image}
               frontAlt="Card Image"
-              headingtext={project.heading} 
+              headingtext={project.heading}
               backText={project.text}
+              LiveLink={project.liveLink}
               ref={(el) => (cardRefs.current[index] = el)}
             />
           ))}

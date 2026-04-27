@@ -1,32 +1,3 @@
-// 'use client'
-// import { style as motionStyle } from 'framer-motion/client'
-// import React from 'react'
-// import style from './page.module.css'
-
-// const page = () => {
-//   return (
-//     <>
-//       <section className={style.intro}>
-//         <h1 className={style.introh1}>Lorem ipsum <span className='' > dolor sit amet.</span></h1>
-//       </section>
-
-
-
-//       <section className={style.cta}>
-//         <h1 className={style.ctah1}>Terms & Conditions:</h1>
-//         <p className={style.twop}>All content provided on this website is for informational and professional purposes only. You may view, browse, and share the content for personal or non-commercial use, but copying or reproducing without permission is not allowed.</p>
-//       </section>
-
-
-//       <section className={style.outro}>
-//         <h1 className={style.outroh1}>Terms & Conditions:-----03</h1>
-//       </section>
-//     </>
-//   )
-// }
-
-// export default page
-
 "use client";
 
 import React, { useEffect, useRef } from "react";
@@ -156,13 +127,39 @@ const Page = () => {
             </div>
 
             {/* Final */}
-            <div ref={finalRef}>
-              <h2 className="text-2xl font-bold text-sky-200 mb-3 uppercase font-[anzo1]">
-                Agreement
-              </h2>
-              <p className="text-gray-300 bg-gray-900/30 p-4 rounded-lg border-l-4 border-sky-500 font-[anzo2] lg:text-[.8vw]">
-                By hiring HMStudio, you agree to all terms mentioned above. HMStudio reserves the right to update these terms at any time without prior notice.
-              </p>
+            {/* Final + Undertaking */}
+            <div ref={finalRef} className="space-y-6">
+
+              <div>
+                <h2 className="text-2xl font-bold text-sky-200 mb-3 uppercase font-[anzo1]">
+                  Agreement
+                </h2>
+
+                <p className="text-gray-300 bg-gray-900/30 p-4 rounded-lg border-l-4 border-sky-500 font-[anzo2] lg:text-[.8vw]">
+                  By hiring HMStudio, you agree to all terms mentioned above. HMStudio reserves the right to update these terms at any time without prior notice.
+                </p>
+              </div>
+
+              {/* Undertaking Box */}
+              <div className="bg-sky-950/30 border border-sky-800/40 rounded-xl p-5 md:p-6 flex flex-col sm:flex-row sm:items-start gap-4">
+
+                {/* Checkbox */}
+                <input
+                  type="checkbox"
+                  id="undertaking"
+                  className="mt-1 w-5 h-5 accent-sky-500 cursor-pointer"
+                />
+
+                {/* Text */}
+                <label
+                  htmlFor="undertaking"
+                  className="text-gray-200 font-[anzo2] lg:text-[.85vw] leading-relaxed cursor-pointer"
+                >
+                  I hereby confirm that I have read, understood, and agree to all Terms & Conditions of HMStudio. I acknowledge that project payments, delivery time, and requirements will follow the agreement stated above.
+                </label>
+
+              </div>
+
             </div>
 
           </div>

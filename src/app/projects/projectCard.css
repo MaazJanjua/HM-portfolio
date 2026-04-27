@@ -26,7 +26,7 @@ section {
     perspective: 1000px;
 }
 
-.card p {
+/* .card p {
     padding-top: 5vh;
     position: absolute;
     width: 85%;
@@ -36,7 +36,17 @@ section {
     text-align: center;
     font-size: 17px;
     font-weight: 500;
-}
+} */
+
+/* .card p {
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+} */
+
+
+
 
 .card-wrapper {
     position: absolute;
@@ -110,5 +120,5 @@ section {
     section{
         height: 100vh;
         width: 50vw;
-    }
+    } 
 }
