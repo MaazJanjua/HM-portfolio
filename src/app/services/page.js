@@ -7,4 +7,4 @@ const Page = () => {
     return (<> <StickyCards /> </>);
 };
 
-export default Page;
+export default Page; 

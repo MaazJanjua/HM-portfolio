@@ -1,13 +1,14 @@
+"use client";
 import React, { useEffect } from "react";
-import moonImg from "../../assets/Images/earthmeri.png";
-import merivideo from "../../assets/Images/1.mp4";
+// import moonImg from "../../assets/Images/earthmeri.png";
+// import merivideo from "../../assets/Images/1.mp4";
 import { useGSAP } from "@gsap/react";
 import { Timeline } from "gsap/src/gsap-core";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
-
+ 
 
 const About = () => {
   useGSAP(() => {
@@ -123,7 +124,7 @@ const About = () => {
           <br />
           <span>it’s your brand in action.</span>
         </p>
-        <button className="mt-[3vw] mb-[2vw] px-[6vw] py-[.60vw] border-[6px]  text-white border-white bg-gradient-to-r from-black-400 via-gray-700 to-purple-400
+        <button className="mt-[3vw] mb-[2vw] px-[6vw] py-[.60vw] border-[6px]  text-white border-white bg-linear-to-r from-black-400 via-gray-700 to-purple-400
  font-bold rounded-2xl hover:bg-gray-200 mainaboutheading3 w-[25vw] text-[1vw] flex justify-center items-center">
           EXPLORE
         </button>

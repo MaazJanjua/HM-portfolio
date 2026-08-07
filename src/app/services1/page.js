@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react'
 import { Foldit } from 'next/font/google';
 import Link from "next/link";
-
+  
 const foldit = Foldit({
     weight: ['400', '700'],
     subsets: ['latin']
