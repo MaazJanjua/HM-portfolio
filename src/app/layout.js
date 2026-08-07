@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "HMStudio",
+  title: "HMStudio | Full Stack Web Development, WordPress, SEO & Graphic Design",
   description:
-    "HMStudio is a digital agency specializing in Full Stack Web Development, WordPress websites, SEO, Graphic Design, Branding, and modern digital solutions for businesses.",
+    "HMStudio helps businesses grow online with modern Full Stack Web Applications, responsive WordPress websites, SEO services, Graphic Design, Branding, UI/UX design, and digital solutions.",
 
   verification: {
     other: {
