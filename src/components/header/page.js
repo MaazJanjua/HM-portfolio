@@ -43,9 +43,9 @@ const Header = () => {
 
             {/* LOGO */}
             <div className={` transition-all duration-500   ${showLogo ? "opacity-100" : "opacity-0 -translate-y-6"}`}>
-                <div className="relative w-16 h-16 sm:w-20 sm:h-20 lg:w-34 lg:h-34">
+                <div className="relative w-39 h-28 sm:w-20 sm:h-20 lg:w-84 lg:h-54">
                     <Image
-                        src="/image/headerLogo.png"
+                        src="/image/HMSTUDIO-LOGO.png"
                         alt="logo"
                         // fill
                         className="object-contain select-none"
