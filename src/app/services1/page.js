@@ -50,18 +50,18 @@ const page = () => {
             buttonText: "Book Now",
             buttonLink: "/contact",
             title: "Shopify Store",
-            image: "/sticky-cards/card_3.jpg",
+            image: "/sticky-cards/Shopify (3).jpeg",
             description: "Professional Shopify stores with custom design, product setup, responsive layouts, and essential features to help grow your online business."
         },
-        {
-            index: "05",
-            type: "Service-05",
-            buttonText: "Book Now",
-            buttonLink: "/contact",
-            title: "Canva Designs",
-            image: "/sticky-cards/card_3.jpg",
-            description: "Creative social media posts, banners, and branding designs using Canva."
-        },
+        // {
+        //     index: "05",
+        //     type: "Service-05",
+        //     buttonText: "Book Now",
+        //     buttonLink: "/contact",
+        //     title: "Canva Designs",
+        //     image: "/sticky-cards/card_3.jpg",
+        //     description: "Creative social media posts, banners, and branding designs using Canva."
+        // },
         {
             index: "06",
             type: "Service-06",
