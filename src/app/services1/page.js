@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react'
 import { Foldit } from 'next/font/google';
 import Link from "next/link";
-  
+
 const foldit = Foldit({
     weight: ['400', '700'],
     subsets: ['latin']
@@ -40,43 +40,38 @@ const page = () => {
             type: "Service-03",
             buttonText: "Book Now",
             buttonLink: "/contact",
-            title: "Canva Designs",
-            image: "/sticky-cards/card_3.jpg",
-            description: "Creative social media posts, banners, and branding designs using Canva."
+            title: "E-commerce Development",
+            image: "/sticky-cards/card_4.jpg",
+            description: "Custom e-commerce websites with secure payment integration, product management, shopping carts, and a smooth user experience."
         },
         {
             index: "04",
             type: "Service-04",
             buttonText: "Book Now",
             buttonLink: "/contact",
-            title: "E-commerce Development",
-            image: "/sticky-cards/card_4.jpg",
-            description: "Fully functional online stores with payment integration and modern UI."
+            title: "Shopify Store",
+            image: "/sticky-cards/card_3.jpg",
+            description: "Professional Shopify stores with custom design, product setup, responsive layouts, and essential features to help grow your online business."
         },
         {
             index: "05",
             type: "Service-05",
             buttonText: "Book Now",
             buttonLink: "/contact",
-            // comment: 'Work With Precision',
-            title: "UI/UX Design",
-            image: "/sticky-cards/card_5.jpg",
-            description: "User-friendly and visually appealing interface designs for web and mobile."
-        }, {
+            title: "Canva Designs",
+            image: "/sticky-cards/card_3.jpg",
+            description: "Creative social media posts, banners, and branding designs using Canva."
+        },
+        {
             index: "06",
             type: "Service-06",
             buttonText: "Book Now",
             buttonLink: "/contact",
-
-            // SEO Optimized Title (keywords included)
-            title: "Facebook Ads Management & Marketing Services",
-
-            image: "/sticky-cards/card_6.jpg",
-
-            // SEO + Conversion Description
-            description: "Boost your business with expert Facebook Ads management services. We create high-converting ad campaigns, advanced audience targeting, and optimized ad creatives to generate leads, increase sales, and maximize ROI."
-        }
-        ,
+            // comment: 'Work With Precision',
+            title: "UI/UX Design",
+            image: "/sticky-cards/card_5.jpg",
+            description: "User-friendly and visually appealing interface designs for web and mobile."
+        },
         {
             index: "07",
             type: "Service-07",
