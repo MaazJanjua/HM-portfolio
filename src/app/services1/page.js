@@ -50,7 +50,7 @@ const page = () => {
             buttonText: "Book Now",
             buttonLink: "/contact",
             title: "Shopify Store",
-            image: "/sticky-cards/Shopify (3).jpeg",
+            image: "/sticky-cards/shopify (3).jpeg",
             description: "Professional Shopify stores with custom design, product setup, responsive layouts, and essential features to help grow your online business."
         },
         // {
