@@ -165,7 +165,7 @@ const page = () => {
             </Link>
           </div> */}
           <div >
-            <h1> under-development</h1>
+            <h1 className="text-orange-600 lg:text-[1.4vw] text-[2.7vw]"> under-development</h1>
           </div>
           <div> <h2> site by Hafiz-Maaz</h2></div>
         </div>
