@@ -23,63 +23,58 @@ const page = () => {
             buttonText: "Book Now",
             buttonLink: "/contact",
             title: "Web Development",
-            image: "/sticky-cards/card_1.jpg",
-            description: "Modern and responsive websites built using React, Next.js, and JavaScript."
+            image: "https://res.cloudinary.com/do3j9i0pl/image/upload/v1788346675/card_1_z6lrj2.jpg",
+            description: "High-performance, responsive websites built with modern technologies like React, Next.js, and JavaScript—designed to deliver speed, scalability, and an exceptional user experience."
         },
+
         {
             index: "02",
             type: "Service-02",
             buttonText: "Book Now",
             buttonLink: "/contact",
             title: "WordPress Development",
-            image: "/sticky-cards/card_2.jpg",
-            description: "Custom WordPress websites, themes, and plugins tailored for your business."
+            image: "https://res.cloudinary.com/do3j9i0pl/image/upload/v1788269664/Hire_WordPress_Developer_Mumbai_Worldindia_Provides_Top-Tier_Talent_pie4fk.jpg",
+            description: "Professional WordPress websites tailored to your business, with custom themes, powerful functionality, responsive design, and easy-to-manage content."
         },
+
         {
             index: "03",
             type: "Service-03",
             buttonText: "Book Now",
             buttonLink: "/contact",
             title: "E-commerce Development",
-            image: "/sticky-cards/card_4.jpg",
-            description: "Custom e-commerce websites with secure payment integration, product management, shopping carts, and a smooth user experience."
+            image: "https://res.cloudinary.com/do3j9i0pl/image/upload/v1788269021/card_4_kougtz.jpg",
+            description: "Conversion-focused e-commerce stores with secure payments, product management, smart shopping experiences, and scalable solutions built to grow your online business."
         },
+
         {
             index: "04",
             type: "Service-04",
             buttonText: "Book Now",
             buttonLink: "/contact",
             title: "Shopify Store",
-            image: "/sticky-cards/shopify (3).jpeg",
-            description: "Professional Shopify stores with custom design, product setup, responsive layouts, and essential features to help grow your online business."
+            image: "https://res.cloudinary.com/do3j9i0pl/image/upload/v1788268858/shopify_3_l1dv4u.jpg",
+            description: "Modern Shopify stores built for growth, featuring custom designs, optimized product pages, responsive layouts, secure checkout, and a seamless shopping experience."
         },
-        // {
-        //     index: "05",
-        //     type: "Service-05",
-        //     buttonText: "Book Now",
-        //     buttonLink: "/contact",
-        //     title: "Canva Designs",
-        //     image: "/sticky-cards/card_3.jpg",
-        //     description: "Creative social media posts, banners, and branding designs using Canva."
-        // },
+
         {
             index: "06",
             type: "Service-06",
             buttonText: "Book Now",
             buttonLink: "/contact",
-            // comment: 'Work With Precision',
             title: "UI/UX Design",
-            image: "/sticky-cards/card_5.jpg",
-            description: "User-friendly and visually appealing interface designs for web and mobile."
+            image: "https://res.cloudinary.com/do3j9i0pl/image/upload/v1788346791/card_5_t9xdsw.jpg",
+            description: "Intuitive and visually engaging UI/UX designs that combine user needs, modern aesthetics, and seamless interactions to create memorable digital experiences."
         },
+
         {
             index: "07",
             type: "Service-07",
             buttonText: "Book Now",
             buttonLink: "/contact",
             title: "SEO Optimization & Google Ranking Services",
-            image: "/sticky-cards/card_7.jpg",
-            description: "Improve your website ranking on Google with professional SEO services. We optimize your site structure, content, and performance to increase organic traffic, boost visibility, and drive long-term business growth."
+            image: "https://res.cloudinary.com/do3j9i0pl/image/upload/v1788346847/card_7_g8oes3.jpg",
+            description: "Data-driven SEO strategies to improve Google visibility, increase organic traffic, optimize website performance, and attract more qualified customers to your business."
         }
     ];
 
