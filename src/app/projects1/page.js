@@ -24,9 +24,9 @@ const Card = forwardRef(({ id, frontSrc, frontAlt, backText, headingtext, LiveLi
                             />
                         </div>
 
-                        <div className="flip-card-back flex flex-col justify-between items-center bg-green-900 ">
+                        <div className="flip-card-back flex flex-col justify-between items-center bg-green-900 "> 
                             <div><h2 className='text-[21px] font-[anzo1]'>{headingtext}</h2></div>
-                            <div> <p className='text-[.8vw] font-[anzo2]'>{backText}</p></div>
+                            <div> <p className='text-[.8vw] font-[anzo2] w-[19vw] break-all leading-8'>{backText}</p></div>
                             <div className=' h-[4vh] w-full  text-center'><a
                                 href={LiveLink}
                                 target="_blank"

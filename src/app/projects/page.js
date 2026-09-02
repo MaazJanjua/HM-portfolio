@@ -15,7 +15,7 @@ const page = () => {
 
   const container = useRef(null);
   const cardRefs = useRef([]);
- 
+
   useGSAP(
     () => {
       const cards = cardRefs.current;
@@ -91,41 +91,47 @@ const page = () => {
     { scope: container },
   );
 
-  const projects = [
-    {
-      id: 1,
-      image: "/image/kanban.jpg",
-      heading: "Project-01",
+  const projects  = [
+  {
+    id: 1,
+    image: "/image/kanban.jpg",
+    heading: "Kanban Task Manager",
+    text: "A responsive Kanban task management app built with HTML, CSS, and JavaScript. Features drag-and-drop task management, task creation and deletion, stage-based organization, task counters, and localStorage persistence for a smooth and productive workflow.",
+    liveLink: "https://kan-ban-todo.vercel.app/"
+  },
 
-      text: "A dynamic Kanban Todo application built using HTML, CSS, and JavaScript enabling users to manage tasks efficiently through an intuitive drag-and-drop interface. Supports task creation, deletion and real-time movement across different stages. Includes task counters for better tracking and productivity insights. Utilizes localStorage to persist data, ensuring tasks remain saved across sessions. Designed with confirmation prompts to enhance user control and prevent accidental deletions.",
-      liveLink: "https://kan-ban-todo.vercel.app/"
-    },
-    {
-      id: 2,
-      image: "/image/snake-game.jpg",
-      heading: "Project-02",
-      liveLink: 'http:',
-      text: "An interactive Snake Game developed using HTML, CSS, JavaScript and Tailwind CSS featuring smooth gameplay and responsive design. Includes real-time score tracking, high score storage, and time-based gameplay mechanics. Implemented keyboard controls with planned mobile support for broader accessibility. Designed to adapt seamlessly across different screen sizes with dynamic resizing. This project highlights my skills in game logic, DOM manipulation, and user-focused design.",
-      liveLink: "https://snake-game1-smoky.vercel.app/"
+  {
+    id: 2,
+    image: "/image/snake-game.jpg",
+    heading: "Snake Game",
+    text: "An interactive Snake Game built with HTML, CSS, JavaScript, and Tailwind CSS. Includes smooth gameplay, real-time score tracking, high-score persistence, keyboard controls, responsive design, and dynamic game mechanics.",
+    liveLink: "https://snake-game1-smoky.vercel.app/"
+  },
 
-    },
+  {
+    id: 3,
+    image: "/image/password-manager.jpg",
+    heading: "Password Manager",
+    text: "A React-based password manager designed to securely organize and manage credentials. Supports adding, editing, deleting, and viewing saved passwords with masked data, confirmation prompts, and an intuitive user interface.",
+    liveLink: "https://lustrous-crumble-7be450.netlify.app/"
+  },
 
-    {
-      id: 3,
-      image: "/image/password-manager.jpg",
-      heading: "Project-03",
+  {
+    id: 4,
+    image: "/image/full-stack-project.jpg",
+    heading: "Full-Stack E-commerce Platform",
+    text: "A production-ready full-stack e-commerce platform built with React, Node.js, Express, and MongoDB. Includes secure authentication, product and category management, cart and wishlist functionality, order processing, payment integration, and scalable backend architecture.",
+    liveLink: "https://full-stack-app-pink-sigma.vercel.app/"
+  },
 
-      text: "A secure Password Manager application built with React.js, allowing users to store, edit and delete credentials efficiently. Implements masked password display for enhanced privacy, ensuring sensitive data remains protected. Includes confirmation prompts before deletion to prevent accidental data loss. Designed with a clean and intuitive user interface for smooth user experience. This project demonstrates my skills in state management, CRUD operations and building secure user-focused applications.",
-      liveLink:"https://lustrous-crumble-7be450.netlify.app/"
-    },
-    {
-      id: 4,
-      image: "/image/full-stack-project.jpg",
-      heading: "Project-04",
-      text: "A complete full-stack web application built with modern technologies, covering frontend, backend and database integration. Designed with secure authentication and scalable architecture to handle real-world usage. Focused on performance clean UI/UX and efficient data handling. Implements best practices for maintainability and future growth. This project demonstrates my ability to deliver end-to-end production-ready web solutions.",
-      liveLink: "https://full-stack-app-pink-sigma.vercel.app/"
-    },
-  ];
+  {
+    id: 5,
+    image: "/image/shopify-project.jpg",
+    heading: "Shopify Store",
+    text: "A professionally designed Shopify store focused on a clean shopping experience, responsive design, product presentation, and conversion-focused layouts. Built to provide businesses with a modern and easy-to-manage online storefront.",
+    liveLink: "https://jyg6xe-c8.myshopify.com/"
+  }
+];
   return (
     <>
       <div className="container" ref={container}>
