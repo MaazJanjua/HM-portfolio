@@ -10,7 +10,7 @@ const Page1 = () => {
       <div
         data-scroll data-scroll-container data-scroll-speed="1"
         id="page1-in"
-        className="h-screen  lg:w-full lg:h-screen static flex justify-center items-center lg:p-4 py-[10vh] lg:px-0 px-[3vw]  "
+        className="h-screen  lg:w-full lg:h-screen static flex justify-center items-center lg:p-4 lg:py-[10vh] py-[3vh] lg:px-0 px-[3vw]  "
       >
         <div className="pl-9 pt-7  h-[91vh] shadow-xl shadow-sky-950 bg-cover rounded-[37px] bg-(--primary-color) w-[97vw] 
        ">
