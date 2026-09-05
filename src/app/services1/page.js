@@ -122,11 +122,11 @@ const page = () => {
 
 
     return (
-        <div className=' w-full flex justify-center items-center bg-gray-950'>
+        <div className=' w-full flex justify-center items-center'>
             <div className='sticky-cards relative w-[97vw] ' ref={container}>
                 {cards.map((card, index) => (
                     <div
-                        className="sticky-card relative flex gap-12 h-[90vh] p-6 bg-sky-950 will-change-transform rounded-[.5vw]
+                        className="sticky-card relative flex gap-12 h-[90vh] p-6 bg-gray-900 will-change-transform rounded-[.5vw]
   after:content-['']
   after:absolute
   after:top-0
@@ -150,7 +150,7 @@ max-[1000px]:flex-1'>
 
                             <p className='font-[anzo3] lg:text-[7.5vw] text-[14vw] uppercase'>{card.type}</p>
 
-                            {/* ✅ Button under type */}
+                            {/* ✅ Button under type */}   
                             {card.buttonText && (
                                 <Link href={card.buttonLink}>
                                     <button className="px-4 py-2 sm:px-6 sm:py-2.5 md:px-8 md:py-3 lg:px-10 lg:py-3.5 

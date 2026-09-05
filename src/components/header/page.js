@@ -60,7 +60,7 @@ const Header = () => {
 
                 <Link href="/contact">
                     <button
-                        className="lg:px-7 lg:py-4 px-[16] py-[6] rounded-full border text-white text-xs sm:text-sm uppercase font-extrabold font-[anzo2] bg-linear-to-r from-black via-gray-700 to-purple-400 hover:opacity-90 transition"
+                        className="lg:px-7 lg:py-4 px-[16] py-[6] rounded-full border text-white text-xs sm:text-sm uppercase font-extrabold font-[anzo2] bg-linear-to-r from-gray-950 via-gray-900 to-sky-900 hover:opacity-90 transition"
                     >
                         Plan a Call
                     </button>

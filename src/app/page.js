@@ -49,7 +49,7 @@ const Page = () => {
     <>
       <ReactLenis root />
       {/* <Intro /> */}
-      <main className='bg-gray-950'
+      <main className='bg-gray-'
       //  ref={scrollContainerRef}
       >
         <Home />

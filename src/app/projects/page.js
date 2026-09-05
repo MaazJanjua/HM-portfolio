@@ -81,6 +81,7 @@ const page = () => {
                 xPercent: -50,
                 yPercent: -50,
                 rotate: cardRotation,
+                opacity: .8,
                 ease: "power1.out",
               });
             }
@@ -91,47 +92,47 @@ const page = () => {
     { scope: container },
   );
 
-  const projects  = [
-  {
-    id: 1,
-    image: "/image/kanban.jpg",
-    heading: "Kanban Task Manager",
-    text: "A responsive Kanban task management app built with HTML, CSS, and JavaScript. Features drag-and-drop task management, task creation and deletion, stage-based organization, task counters, and localStorage persistence for a smooth and productive workflow.",
-    liveLink: "https://kan-ban-todo.vercel.app/"
-  },
+  const projects = [
+    {
+      id: 1,
+      image: "/image/kanban.jpg",
+      heading: "Kanban Task Manager",
+      text: "A responsive Kanban task management app built with HTML, CSS, and JavaScript. Features drag-and-drop task management, task creation and deletion, stage-based organization, task counters, and localStorage persistence for a smooth and productive workflow.",
+      liveLink: "https://kan-ban-todo.vercel.app/"
+    },
 
-  {
-    id: 2,
-    image: "/image/snake-game.jpg",
-    heading: "Snake Game",
-    text: "An interactive Snake Game built with HTML, CSS, JavaScript, and Tailwind CSS. Includes smooth gameplay, real-time score tracking, high-score persistence, keyboard controls, responsive design, and dynamic game mechanics.",
-    liveLink: "https://snake-game1-smoky.vercel.app/"
-  },
+    {
+      id: 2,
+      image: "/image/snake-game.jpg",
+      heading: "Snake Game",
+      text: "An interactive Snake Game built with HTML, CSS, JavaScript, and Tailwind CSS. Includes smooth gameplay, real-time score tracking, high-score persistence, keyboard controls, responsive design, and dynamic game mechanics.",
+      liveLink: "https://snake-game1-smoky.vercel.app/"
+    },
 
-  {
-    id: 3,
-    image: "/image/password-manager.jpg",
-    heading: "Password Manager",
-    text: "A React-based password manager designed to securely organize and manage credentials. Supports adding, editing, deleting, and viewing saved passwords with masked data, confirmation prompts, and an intuitive user interface.",
-    liveLink: "https://lustrous-crumble-7be450.netlify.app/"
-  },
+    {
+      id: 3,
+      image: "/image/password-manager.jpg",
+      heading: "Password Manager",
+      text: "A React-based password manager designed to securely organize and manage credentials. Supports adding, editing, deleting, and viewing saved passwords with masked data, confirmation prompts, and an intuitive user interface.",
+      liveLink: "https://lustrous-crumble-7be450.netlify.app/"
+    },
 
-  {
-    id: 4,
-    image: "/image/full-stack-project.jpg",
-    heading: "Full-Stack E-commerce Platform",
-    text: "A production-ready full-stack e-commerce platform built with React, Node.js, Express, and MongoDB. Includes secure authentication, product and category management, cart and wishlist functionality, order processing, payment integration, and scalable backend architecture.",
-    liveLink: "https://full-stack-app-pink-sigma.vercel.app/"
-  },
+    {
+      id: 4,
+      image: "/image/full-stack-project.jpg",
+      heading: "Full-Stack E-commerce Platform",
+      text: "A production-ready full-stack e-commerce platform built with React, Node.js, Express, and MongoDB. Includes secure authentication, product and category management, cart and wishlist functionality, order processing, payment integration, and scalable backend architecture.",
+      liveLink: "https://full-stack-app-pink-sigma.vercel.app/"
+    },
 
-  {
-    id: 5,
-    image: "/image/shopify-project.jpg",
-    heading: "Shopify Store",
-    text: "A professionally designed Shopify store focused on a clean shopping experience, responsive design, product presentation, and conversion-focused layouts. Built to provide businesses with a modern and easy-to-manage online storefront.",
-    liveLink: "https://jyg6xe-c8.myshopify.com/"
-  }
-];
+    {
+      id: 5,
+      image: "/image/shopify-project.jpg",
+      heading: "Shopify Store",
+      text: "A professionally designed Shopify store focused on a clean shopping experience, responsive design, product presentation, and conversion-focused layouts. Built to provide businesses with a modern and easy-to-manage online storefront.",
+      liveLink: "https://jyg6xe-c8.myshopify.com/"
+    }
+  ];
   return (
     <>
       <div className="container" ref={container}>

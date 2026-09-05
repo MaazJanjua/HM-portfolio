@@ -25,10 +25,10 @@ const Page2 = () => {
                 ease: "power4.out",
                 text: {
                     value: `
-                        <span class='text-cyan-500'>©</span>
-                        2026 HM.Studio<span class='text-cyan-950'>®</span> | 
-                        <i class="ri-map-pin-line text-cyan-500"></i> PAKISTAN, ISLAMABAD |  
-                        <i class="ri-gemini-fill text-cyan-500"></i> Sharefabad | Iqra Road
+                        <span class='text-gray-900'>©</span>
+                        2026 HM.Studio<span class='text-sky-950'>®</span> | 
+                        <i class="ri-map-pin-line text-gray-900"></i> PAKISTAN, ISLAMABAD |  
+                        <i class="ri-gemini-fill text-sky-950"></i> Sharefabad | Iqra Road
                     `,
                     parseHTML: true
                 },

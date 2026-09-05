@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0,1&display=swap");
 @import "tailwindcss";
 
+:root {
+  --background: #303234;
+  --text-color: #f0f8ff;
+  --primary-color: #111827;
+  --secondary-color: #04283f;
+  --tertiary-color: #030712;
+}
+
 * {
-  /* margin: 0;
-  padding: 0; */
   box-sizing: border-box;
 }
 
@@ -11,21 +17,13 @@ html,
 body {
   width: 100%;
   height: auto;
-  background-color: #303234;
+  background-color: var(--tertiary-color);
   color: #f0f8ff;
   font-family: "Instrument Serif", serif, 'Anzo1', 'Anzo2', 'MorgSemi', 'Mobile-Device1', sans-serif;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
-
-  overflow-x: hidden;   /* allow vertical for Locomotive */
-  /* overflow-y: auto;   */
-  /* prevent double scroll */
+  overflow-x: hidden;
 }
-
-/* Scroll container */
-/* [data-scroll-container] {
-  min-height: 100vh;
-} */
 
 [data-scroll-section] {
   position: relative;
@@ -65,7 +63,6 @@ body {
 @font-face {
   font-family: 'Mobile-Device3';
   src: url('/fonts/Creepstar-Regular.ttf') format('truetype');
-     /* src: url('fonts/Creepstar-Regular.ttf') format('truetype'); */
 }
 
 /* Example 3D / tilt styles */
@@ -82,9 +79,3 @@ body {
 .rotateText {
   transform-origin: 100% 70%;
 }
-
-/* #tiltDiv {
-  width: fit-content;
-  transform: rotateY(10deg);
-  transition: transform 1s ease-in-out;
-} */

@@ -10,9 +10,9 @@ const Page1 = () => {
       <div
         data-scroll data-scroll-container data-scroll-speed="1"
         id="page1-in"
-        className="h-screen  lg:w-full lg:h-screen static flex justify-center items-center lg:p-4 py-[10vh]  bg-gray-950   "
+        className="h-screen  lg:w-full lg:h-screen static flex justify-center items-center lg:p-4 py-[10vh]   "
       >
-        <div className="pl-9 pt-7 h-[91vh] shadow-xl shadow-sky-950 bg-cover rounded-[37px] bg-gray-900 w-[97vw] 
+        <div className="pl-9 pt-7 h-[91vh] shadow-xl shadow-sky-950 bg-cover rounded-[37px] bg-(--primary-color) w-[97vw] 
        ">
           {/* <img className=" relative bottom-0 text-4xl h-44 mb-6" src={HeaderImg} alt="logo" /> */}
           <TiltText />

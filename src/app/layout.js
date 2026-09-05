@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`} data-scroll-behavior="smooth"
     >
-      <body className="min-h-full flex flex-col bg-gray-950">
+      <body className="min-h-full flex flex-col ">
         <Header />
         <main className="grow">
           {children}
