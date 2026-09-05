@@ -39,13 +39,13 @@ const Header = () => {
     }, []);
 
     return (
-        <div className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4">
+        <div className="fixed top-5  left-0 w-full z-50 flex items-center justify-between px-4">
 
             {/* LOGO */}
             <div className={` transition-all duration-500   ${showLogo ? "opacity-100" : "opacity-0 -translate-y-6"}`}>
-                <div className="relative w-39 h-28 sm:w-20 sm:h-20 lg:w-84 lg:h-54">
+                <div className="relative w-18 h-16 sm:w-17 sm:h-17 lg:w-58 lg:h-35 ">
                     <Image
-                        src="/image/HMSTUDIO-LOGO.png"
+                        src="/image/HM_logo.png"
                         alt="logo"
                         // fill
                         className="object-contain select-none"
